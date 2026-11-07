@@ -1,0 +1,2 @@
+relationship_id,person_a_id,relationship_type,person_b_id,biological_legal_household,claim_ids,supporting_artifact_ids,contradicting_artifact_ids,independence_groups,status,confidence,rationale
+R-0001,P-0001,spouse,P-0002,reported-marriage,C-0003,A-0001,,USER-SERGEY-CHAT,single-source,Семейное сообщение,Нет акта о браке.

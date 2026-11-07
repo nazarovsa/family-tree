@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" content="all" />
+        <meta name="csrf-token" content="59fe8c0c1f98942c38e475b261db3e69" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>е-ресурс ЦДІАЛ</title>
+        <meta name="description" content="е-ресурс ЦДІАЛ" />
+        <meta name="keywords" content="е-ресурс ЦДІАЛ" />
+        <meta property="og:title" content="е-ресурс ЦДІАЛ">
+        <meta property="og:description" content="ЦЕНТРАЛЬНИЙ ДЕРЖАВНИЙ ІСТОРИЧНИЙ АРХІВ УКРАЇНИ, м. ЛЬВІВ">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/fonts/fonts.css?0.3.2">
+        <link rel="stylesheet" href="/build/main.css?0.3.2">
+        <link rel="icon" href="/static/images/favicon.ico">
+        <script>
+            window.LANGUAGES = {"en":"English","ua":"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430"};
+            window.Config = {"uiVersion":"0.3.2","templates":{"fundsForm":"\/static\/forms\/CDAGO\/fund.html"},"commonSearchLimit":5,"clientStaticUrl":"\/static","staticUrl":"","defaultLocale":"ua","type":"demo_cdial","project":"cdial","logo":"archium-cdial.svg","contactTemplate":"contact-us-info-cdial","contactPageTemplate":"site\/conctactUs\/show-cdial.html.twig","autoLogout":18000,"isEnableResponsive":true,"isEnableActSortOptimization":true,"GoogleAnalyticsTag":"","projectDescription":{"ua":"\u041c\u0435\u0442\u043e\u044e \u0446\u044c\u043e\u0433\u043e \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0433\u043e \u0440\u0435\u0441\u0443\u0440\u0441\u0443 \u0454 \u043d\u0430\u0434\u0430\u043d\u043d\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u0443 \u0434\u043e \u043f\u043e\u0432\u043d\u043e\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0433\u043e \u0434\u043e\u0432\u0456\u0434\u043a\u043e\u0432\u043e\u0433\u043e \u0430\u043f\u0430\u0440\u0430\u0442\u0443 \u0430\u0440\u0445\u0456\u0432\u0443 \u0442\u0430 \u0439\u043e\u0433\u043e \u043e\u0446\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0445 \u0444\u043e\u043d\u0434\u0456\u0432. \u0420\u0435\u0441\u0443\u0440\u0441 \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0443\u0454 \u043f\u043e\u0432\u043d\u043e\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u0438\u0439 \u043f\u043e\u0448\u0443\u043a \u0437\u0430 \u043d\u0430\u0437\u0432\u0430\u043c\u0438 \u0444\u043e\u043d\u0434\u0456\u0432, \u0456\u0441\u0442\u043e\u0440\u0438\u0447\u043d\u0438\u043c\u0438 \u0434\u043e\u0432\u0456\u0434\u043a\u0430\u043c\u0438 \u0442\u0430 \u0430\u043d\u043e\u0442\u0430\u0446\u0456\u044f\u043c\u0438 \u0434\u043e \u0444\u043e\u043d\u0434\u0456\u0432 \u0456 \u043e\u043f\u0438\u0441\u0456\u0432, \u0430 \u0442\u0430\u043a\u043e\u0436 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u0430\u043c\u0438 \u0441\u043f\u0440\u0430\u0432. \u041f\u043e\u043a\u0430\u0436\u0447\u0438\u043a\u0438 \u0456\u043c\u0435\u043d, \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0439 \u0442\u0430 \u0433\u0435\u043e\u0433\u0440\u0430\u0444\u0456\u0447\u043d\u0438\u0445 \u043d\u0430\u0437\u0432 \u0454 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0438\u043c\u0438 \u0430\u043d\u0430\u043b\u043e\u0433\u0430\u043c\u0438 \u0442\u0440\u0430\u0434\u0438\u0446\u0456\u0439\u043d\u0438\u0445 \u043a\u0430\u0440\u0442\u043a\u043e\u0432\u0438\u0445 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0456\u0432 \u0442\u0430 \u043d\u0430\u0434\u0430\u044e\u0442\u044c \u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0443 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u044e \u0434\u043e\u0441\u043b\u0456\u0434\u043d\u0438\u043a\u0430\u043c. \u041e\u0446\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0456 \u043c\u0430\u0442\u0435\u0440\u0456\u0430\u043b\u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0456 \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0433\u043b\u044f\u0434\u0443 \u0447\u0435\u0440\u0435\u0437 \u0437\u0440\u0443\u0447\u043d\u0438\u0439 \u0456\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441, \u0430 \u043d\u0435\u043e\u0446\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0456 \u0441\u043f\u0440\u0430\u0432\u0438 \u043c\u043e\u0436\u0443\u0442\u044c \u0431\u0443\u0442\u0438 \u0437\u0430\u043c\u043e\u0432\u043b\u0435\u043d\u0456 \u0434\u043e \u0447\u0438\u0442\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0437\u0430\u043b\u0443 \u0430\u0440\u0445\u0456\u0432\u0443 \u043e\u043d\u043b\u0430\u0439\u043d \u0447\u0435\u0440\u0435\u0437 \u043e\u0441\u043e\u0431\u0438\u0441\u0442\u0438\u0439 \u043a\u0430\u0431\u0456\u043d\u0435\u0442. \u0410\u0440\u0445\u0456\u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u043e \u043f\u0440\u0430\u0446\u044e\u0454 \u043d\u0430\u0434 \u043d\u0430\u043f\u043e\u0432\u043d\u0435\u043d\u043d\u044f\u043c \u0440\u0435\u0441\u0443\u0440\u0441\u0443 \u0442\u0430 \u0443\u0434\u043e\u0441\u043a\u043e\u043d\u0430\u043b\u0435\u043d\u043d\u044f\u043c \u043f\u043e\u0448\u0443\u043a\u043e\u0432\u0438\u0445 \u043c\u043e\u0436\u043b\u0438\u0432\u043e\u0441\u0442\u0435\u0439."},"files":{"uploadDir":"\/home\/arinsy\/archium\/etc\/..\/public\/static\/files","clientDownloadPath":"\/static\/files","availableFormats":["image\/jpeg","image\/png"],"zipImageFormats":["jpeg","png","jpg"]}};
+            window.Model = {"languages":["ru","ua"],"max_languages":5};
+            window.LOCALES = {"en":{"shortName":"eng","dir":"en_US","LC_ALL":"en_US.UTF-8"},"ua":{"shortName":"\u0443\u043a\u0440","dir":"ru_UA","LC_ALL":"ru_UA.UTF-8"}};
+            window.Project = "cdial";
+            window.IsExtendedSearch = 1;
+        </script>
+            </head>
+    <body class="responsive">
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__content container">
+        <div class="header__logo logo ">
+            <a href="/" class="logo__link">
+                <img src="/static/images/archium-cdial.svg" alt="logo">
+            </a>
+                    </div>
+        <div class="header__menu menu">
+            <div class="menu__icon burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="/" class="menu__link ">
+                            Головна
+                        </a>
+                    </li>
+                                            <li class="menu__item">
+                            <a href="/guide/" class="menu__link ">
+                                Путівник
+                            </a>
+                        </li>
+                                        <li class="menu__item">
+                        <a href="/fonds/" class="menu__link ">
+                            Фонди
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" onclick="return false;" class="menu__link head-spoiler ">
+                            Покажчики
+                            <button type="button" class="head-spoiler nav-arrow _icon-arrow-down"></button>
+                        </a>
+                                                    <ul class="menu__sub-list">
+                                                                    <li class="menu__sub-item">
+                                        <a href="/tags-type/2/" class="menu__sub-link">
+                                            Географічний покажчик
+                                        </a>
+                                    </li>
+                                                                    <li class="menu__sub-item">
+                                        <a href="/tags-type/1/" class="menu__sub-link">
+                                            Іменний покажчик
+                                        </a>
+                                    </li>
+                                                                    <li class="menu__sub-item">
+                                        <a href="/tags-type/3/" class="menu__sub-link">
+                                            Предметний покажчик
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                            </li>
+
+                                            <li class="menu__item">
+                            <a href="/contacts/"
+                               class="menu__link "
+                            >
+                                Контакти
+                            </a>
+                        </li>
+                    
+                    
+                                            <li class="menu__item login_show">
+                                                            <a class="menu__link login_show_link "
+                                   href="/login/">
+                                    Особистий кабінет
+                                    <button class="_icon-person"></button>
+                                </a>
+                                                    </li>
+                                    </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+            
+            <div class="content-wrapper">
+                <div class="content">
+                    <div class="container file-viewer">
+    <div class="main-content">
+        <div class="description">
+            <div class="description-item">
+    <h4 class="item-head-upper">
+        <a href="/files/145028/" class="no-link-item">Справа&nbsp;7755</a>
+        <i class="fas fa-chevron-up"></i>
+    </h4>
+    <ul class="item-lists">
+        <li>
+            Фонд
+            <a href="/fonds/161/">201</a>
+        </li>
+        <li>
+            Опис
+            <a href="/inventories/666/">4а</a>
+        </li>
+        <li>
+            Справа
+            <a href="/files/145028/">7755</a>
+        </li>
+                <li>
+            Дати
+            <a href="">
+                                    1911-1939
+                            </a>
+        </li>
+                <li>
+            Кількість аркушів
+            <a href="">138</a>
+        </li>
+        <li class="title">Метрична книга (народження) с. Дев’ятир, повіт Рава-Руська, за 1911-1930 рр.</li>
+    </ul>
+</div>
+
+
+        </div>
+        <div class="main-view">
+            <div class="big-preview">
+                <div class="control-block">
+                    <a class="preview-hide-sidebar left">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+
+                    <a class="preview-hide-sidebar right">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+
+                                                        <img src="/static/files/179/1799327.jpg" alt="0001" id="main-image">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="zoom">
+                    <button type="button" id="zoomin" class="zoomin"></button>
+                    <button type="button" id="zoomout" class="zoomout"></button>
+                </div>
+                <div class="big-preview-chevrons">
+
+                </div>
+            </div>
+
+            <div class="sidebar-nav-control">
+                <div class="controls-center">
+                    <a class="hide-sidebar">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar active">
+            <div class="sidebar-viewer">
+    <div class="tabs">
+                <div class="tab active">
+            <a href="#" data-tab="#all-images">Всі зображення</a>
+        </div>
+                    </div>
+    <div class="lists">
+                <div class="item" id="all-images">
+            <ul>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799327">
+                                <img data-target-link="#file-1799327" data-observe-src="/static/files/179/1799327.jpg" class="active" alt="0001">
+                                <span class="number-of-page" data-page="1">Зображення 1</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799329">
+                                <img data-target-link="#file-1799329" data-observe-src="/static/files/179/1799329.jpg" class="" alt="0002">
+                                <span class="number-of-page" data-page="2">Зображення 2</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799348">
+                                <img data-target-link="#file-1799348" data-observe-src="/static/files/179/1799348.jpg" class="" alt="0003">
+                                <span class="number-of-page" data-page="3">Зображення 3</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799279">
+                                <img data-target-link="#file-1799279" data-observe-src="/static/files/179/1799279.jpg" class="" alt="0004">
+                                <span class="number-of-page" data-page="4">Зображення 4</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799315">
+                                <img data-target-link="#file-1799315" data-observe-src="/static/files/179/1799315.jpg" class="" alt="0005">
+                                <span class="number-of-page" data-page="5">Зображення 5</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799337">
+                                <img data-target-link="#file-1799337" data-observe-src="/static/files/179/1799337.jpg" class="" alt="0006">
+                                <span class="number-of-page" data-page="6">Зображення 6</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799360">
+                                <img data-target-link="#file-1799360" data-observe-src="/static/files/179/1799360.jpg" class="" alt="0007">
+                                <span class="number-of-page" data-page="7">Зображення 7</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799330">
+                                <img data-target-link="#file-1799330" data-observe-src="/static/files/179/1799330.jpg" class="" alt="0008">
+                                <span class="number-of-page" data-page="8">Зображення 8</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799268">
+                                <img data-target-link="#file-1799268" data-observe-src="/static/files/179/1799268.jpg" class="" alt="0009">
+                                <span class="number-of-page" data-page="9">Зображення 9</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799381">
+                                <img data-target-link="#file-1799381" data-observe-src="/static/files/179/1799381.jpg" class="" alt="0010">
+                                <span class="number-of-page" data-page="10">Зображення 10</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799273">
+                                <img data-target-link="#file-1799273" data-observe-src="/static/files/179/1799273.jpg" class="" alt="0011">
+                                <span class="number-of-page" data-page="11">Зображення 11</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799339">
+                                <img data-target-link="#file-1799339" data-observe-src="/static/files/179/1799339.jpg" class="" alt="0012">
+                                <span class="number-of-page" data-page="12">Зображення 12</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799354">
+                                <img data-target-link="#file-1799354" data-observe-src="/static/files/179/1799354.jpg" class="" alt="0013">
+                                <span class="number-of-page" data-page="13">Зображення 13</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799312">
+                                <img data-target-link="#file-1799312" data-observe-src="/static/files/179/1799312.jpg" class="" alt="0014">
+                                <span class="number-of-page" data-page="14">Зображення 14</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799398">
+                                <img data-target-link="#file-1799398" data-observe-src="/static/files/179/1799398.jpg" class="" alt="0015">
+                                <span class="number-of-page" data-page="15">Зображення 15</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799322">
+                                <img data-target-link="#file-1799322" data-observe-src="/static/files/179/1799322.jpg" class="" alt="0016">
+                                <span class="number-of-page" data-page="16">Зображення 16</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799333">
+                                <img data-target-link="#file-1799333" data-observe-src="/static/files/179/1799333.jpg" class="" alt="0017">
+                                <span class="number-of-page" data-page="17">Зображення 17</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799379">
+                                <img data-target-link="#file-1799379" data-observe-src="/static/files/179/1799379.jpg" class="" alt="0018">
+                                <span class="number-of-page" data-page="18">Зображення 18</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799391">
+                                <img data-target-link="#file-1799391" data-observe-src="/static/files/179/1799391.jpg" class="" alt="0019">
+                                <span class="number-of-page" data-page="19">Зображення 19</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799389">
+                                <img data-target-link="#file-1799389" data-observe-src="/static/files/179/1799389.jpg" class="" alt="0020">
+                                <span class="number-of-page" data-page="20">Зображення 20</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799380">
+                                <img data-target-link="#file-1799380" data-observe-src="/static/files/179/1799380.jpg" class="" alt="0021">
+                                <span class="number-of-page" data-page="21">Зображення 21</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799328">
+                                <img data-target-link="#file-1799328" data-observe-src="/static/files/179/1799328.jpg" class="" alt="0022">
+                                <span class="number-of-page" data-page="22">Зображення 22</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799284">
+                                <img data-target-link="#file-1799284" data-observe-src="/static/files/179/1799284.jpg" class="" alt="0023">
+                                <span class="number-of-page" data-page="23">Зображення 23</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799355">
+                                <img data-target-link="#file-1799355" data-observe-src="/static/files/179/1799355.jpg" class="" alt="0024">
+                                <span class="number-of-page" data-page="24">Зображення 24</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799326">
+                                <img data-target-link="#file-1799326" data-observe-src="/static/files/179/1799326.jpg" class="" alt="0025">
+                                <span class="number-of-page" data-page="25">Зображення 25</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799324">
+                                <img data-target-link="#file-1799324" data-observe-src="/static/files/179/1799324.jpg" class="" alt="0026">
+                                <span class="number-of-page" data-page="26">Зображення 26</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799285">
+                                <img data-target-link="#file-1799285" data-observe-src="/static/files/179/1799285.jpg" class="" alt="0027">
+                                <span class="number-of-page" data-page="27">Зображення 27</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799394">
+                                <img data-target-link="#file-1799394" data-observe-src="/static/files/179/1799394.jpg" class="" alt="0028">
+                                <span class="number-of-page" data-page="28">Зображення 28</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799341">
+                                <img data-target-link="#file-1799341" data-observe-src="/static/files/179/1799341.jpg" class="" alt="0029">
+                                <span class="number-of-page" data-page="29">Зображення 29</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799350">
+                                <img data-target-link="#file-1799350" data-observe-src="/static/files/179/1799350.jpg" class="" alt="0030">
+                                <span class="number-of-page" data-page="30">Зображення 30</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799385">
+                                <img data-target-link="#file-1799385" data-observe-src="/static/files/179/1799385.jpg" class="" alt="0031">
+                                <span class="number-of-page" data-page="31">Зображення 31</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799276">
+                                <img data-target-link="#file-1799276" data-observe-src="/static/files/179/1799276.jpg" class="" alt="0032">
+                                <span class="number-of-page" data-page="32">Зображення 32</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799387">
+                                <img data-target-link="#file-1799387" data-observe-src="/static/files/179/1799387.jpg" class="" alt="0033">
+                                <span class="number-of-page" data-page="33">Зображення 33</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799278">
+                                <img data-target-link="#file-1799278" data-observe-src="/static/files/179/1799278.jpg" class="" alt="0034">
+                                <span class="number-of-page" data-page="34">Зображення 34</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799357">
+                                <img data-target-link="#file-1799357" data-observe-src="/static/files/179/1799357.jpg" class="" alt="0035">
+                                <span class="number-of-page" data-page="35">Зображення 35</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799342">
+                                <img data-target-link="#file-1799342" data-observe-src="/static/files/179/1799342.jpg" class="" alt="0036">
+                                <span class="number-of-page" data-page="36">Зображення 36</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799270">
+                                <img data-target-link="#file-1799270" data-observe-src="/static/files/179/1799270.jpg" class="" alt="0037">
+                                <span class="number-of-page" data-page="37">Зображення 37</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799313">
+                                <img data-target-link="#file-1799313" data-observe-src="/static/files/179/1799313.jpg" class="" alt="0038">
+                                <span class="number-of-page" data-page="38">Зображення 38</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799266">
+                                <img data-target-link="#file-1799266" data-observe-src="/static/files/179/1799266.jpg" class="" alt="0039">
+                                <span class="number-of-page" data-page="39">Зображення 39</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799295">
+                                <img data-target-link="#file-1799295" data-observe-src="/static/files/179/1799295.jpg" class="" alt="0040">
+                                <span class="number-of-page" data-page="40">Зображення 40</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799307">
+                                <img data-target-link="#file-1799307" data-observe-src="/static/files/179/1799307.jpg" class="" alt="0041">
+                                <span class="number-of-page" data-page="41">Зображення 41</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799286">
+                                <img data-target-link="#file-1799286" data-observe-src="/static/files/179/1799286.jpg" class="" alt="0042">
+                                <span class="number-of-page" data-page="42">Зображення 42</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799370">
+                                <img data-target-link="#file-1799370" data-observe-src="/static/files/179/1799370.jpg" class="" alt="0043">
+                                <span class="number-of-page" data-page="43">Зображення 43</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799369">
+                                <img data-target-link="#file-1799369" data-observe-src="/static/files/179/1799369.jpg" class="" alt="0044">
+                                <span class="number-of-page" data-page="44">Зображення 44</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799292">
+                                <img data-target-link="#file-1799292" data-observe-src="/static/files/179/1799292.jpg" class="" alt="0045">
+                                <span class="number-of-page" data-page="45">Зображення 45</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799356">
+                                <img data-target-link="#file-1799356" data-observe-src="/static/files/179/1799356.jpg" class="" alt="0046">
+                                <span class="number-of-page" data-page="46">Зображення 46</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799302">
+                                <img data-target-link="#file-1799302" data-observe-src="/static/files/179/1799302.jpg" class="" alt="0047">
+                                <span class="number-of-page" data-page="47">Зображення 47</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799281">
+                                <img data-target-link="#file-1799281" data-observe-src="/static/files/179/1799281.jpg" class="" alt="0048">
+                                <span class="number-of-page" data-page="48">Зображення 48</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799396">
+                                <img data-target-link="#file-1799396" data-observe-src="/static/files/179/1799396.jpg" class="" alt="0049">
+                                <span class="number-of-page" data-page="49">Зображення 49</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799393">
+                                <img data-target-link="#file-1799393" data-observe-src="/static/files/179/1799393.jpg" class="" alt="0050">
+                                <span class="number-of-page" data-page="50">Зображення 50</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799347">
+                                <img data-target-link="#file-1799347" data-observe-src="/static/files/179/1799347.jpg" class="" alt="0051">
+                                <span class="number-of-page" data-page="51">Зображення 51</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799340">
+                                <img data-target-link="#file-1799340" data-observe-src="/static/files/179/1799340.jpg" class="" alt="0052">
+                                <span class="number-of-page" data-page="52">Зображення 52</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799392">
+                                <img data-target-link="#file-1799392" data-observe-src="/static/files/179/1799392.jpg" class="" alt="0053">
+                                <span class="number-of-page" data-page="53">Зображення 53</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799374">
+                                <img data-target-link="#file-1799374" data-observe-src="/static/files/179/1799374.jpg" class="" alt="0054">
+                                <span class="number-of-page" data-page="54">Зображення 54</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799296">
+                                <img data-target-link="#file-1799296" data-observe-src="/static/files/179/1799296.jpg" class="" alt="0055">
+                                <span class="number-of-page" data-page="55">Зображення 55</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799311">
+                                <img data-target-link="#file-1799311" data-observe-src="/static/files/179/1799311.jpg" class="" alt="0056">
+                                <span class="number-of-page" data-page="56">Зображення 56</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799314">
+                                <img data-target-link="#file-1799314" data-observe-src="/static/files/179/1799314.jpg" class="" alt="0057">
+                                <span class="number-of-page" data-page="57">Зображення 57</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799306">
+                                <img data-target-link="#file-1799306" data-observe-src="/static/files/179/1799306.jpg" class="" alt="0058">
+                                <span class="number-of-page" data-page="58">Зображення 58</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799272">
+                                <img data-target-link="#file-1799272" data-observe-src="/static/files/179/1799272.jpg" class="" alt="0059">
+                                <span class="number-of-page" data-page="59">Зображення 59</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799332">
+                                <img data-target-link="#file-1799332" data-observe-src="/static/files/179/1799332.jpg" class="" alt="0060">
+                                <span class="number-of-page" data-page="60">Зображення 60</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799290">
+                                <img data-target-link="#file-1799290" data-observe-src="/static/files/179/1799290.jpg" class="" alt="0061">
+                                <span class="number-of-page" data-page="61">Зображення 61</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799400">
+                                <img data-target-link="#file-1799400" data-observe-src="/static/files/179/1799400.jpg" class="" alt="0062">
+                                <span class="number-of-page" data-page="62">Зображення 62</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799349">
+                                <img data-target-link="#file-1799349" data-observe-src="/static/files/179/1799349.jpg" class="" alt="0063">
+                                <span class="number-of-page" data-page="63">Зображення 63</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799377">
+                                <img data-target-link="#file-1799377" data-observe-src="/static/files/179/1799377.jpg" class="" alt="0064">
+                                <span class="number-of-page" data-page="64">Зображення 64</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799297">
+                                <img data-target-link="#file-1799297" data-observe-src="/static/files/179/1799297.jpg" class="" alt="0065">
+                                <span class="number-of-page" data-page="65">Зображення 65</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799309">
+                                <img data-target-link="#file-1799309" data-observe-src="/static/files/179/1799309.jpg" class="" alt="0066">
+                                <span class="number-of-page" data-page="66">Зображення 66</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799399">
+                                <img data-target-link="#file-1799399" data-observe-src="/static/files/179/1799399.jpg" class="" alt="0067">
+                                <span class="number-of-page" data-page="67">Зображення 67</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799376">
+                                <img data-target-link="#file-1799376" data-observe-src="/static/files/179/1799376.jpg" class="" alt="0068">
+                                <span class="number-of-page" data-page="68">Зображення 68</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799305">
+                                <img data-target-link="#file-1799305" data-observe-src="/static/files/179/1799305.jpg" class="" alt="0069">
+                                <span class="number-of-page" data-page="69">Зображення 69</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799363">
+                                <img data-target-link="#file-1799363" data-observe-src="/static/files/179/1799363.jpg" class="" alt="0070">
+                                <span class="number-of-page" data-page="70">Зображення 70</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799351">
+                                <img data-target-link="#file-1799351" data-observe-src="/static/files/179/1799351.jpg" class="" alt="0071">
+                                <span class="number-of-page" data-page="71">Зображення 71</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799288">
+                                <img data-target-link="#file-1799288" data-observe-src="/static/files/179/1799288.jpg" class="" alt="0072">
+                                <span class="number-of-page" data-page="72">Зображення 72</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799346">
+                                <img data-target-link="#file-1799346" data-observe-src="/static/files/179/1799346.jpg" class="" alt="0073">
+                                <span class="number-of-page" data-page="73">Зображення 73</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799366">
+                                <img data-target-link="#file-1799366" data-observe-src="/static/files/179/1799366.jpg" class="" alt="0074">
+                                <span class="number-of-page" data-page="74">Зображення 74</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799317">
+                                <img data-target-link="#file-1799317" data-observe-src="/static/files/179/1799317.jpg" class="" alt="0075">
+                                <span class="number-of-page" data-page="75">Зображення 75</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799359">
+                                <img data-target-link="#file-1799359" data-observe-src="/static/files/179/1799359.jpg" class="" alt="0076">
+                                <span class="number-of-page" data-page="76">Зображення 76</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799338">
+                                <img data-target-link="#file-1799338" data-observe-src="/static/files/179/1799338.jpg" class="" alt="0077">
+                                <span class="number-of-page" data-page="77">Зображення 77</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799274">
+                                <img data-target-link="#file-1799274" data-observe-src="/static/files/179/1799274.jpg" class="" alt="0078">
+                                <span class="number-of-page" data-page="78">Зображення 78</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799402">
+                                <img data-target-link="#file-1799402" data-observe-src="/static/files/179/1799402.jpg" class="" alt="0079">
+                                <span class="number-of-page" data-page="79">Зображення 79</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799319">
+                                <img data-target-link="#file-1799319" data-observe-src="/static/files/179/1799319.jpg" class="" alt="0080">
+                                <span class="number-of-page" data-page="80">Зображення 80</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799308">
+                                <img data-target-link="#file-1799308" data-observe-src="/static/files/179/1799308.jpg" class="" alt="0081">
+                                <span class="number-of-page" data-page="81">Зображення 81</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799321">
+                                <img data-target-link="#file-1799321" data-observe-src="/static/files/179/1799321.jpg" class="" alt="0082">
+                                <span class="number-of-page" data-page="82">Зображення 82</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799334">
+                                <img data-target-link="#file-1799334" data-observe-src="/static/files/179/1799334.jpg" class="" alt="0083">
+                                <span class="number-of-page" data-page="83">Зображення 83</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799386">
+                                <img data-target-link="#file-1799386" data-observe-src="/static/files/179/1799386.jpg" class="" alt="0084">
+                                <span class="number-of-page" data-page="84">Зображення 84</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799382">
+                                <img data-target-link="#file-1799382" data-observe-src="/static/files/179/1799382.jpg" class="" alt="0085">
+                                <span class="number-of-page" data-page="85">Зображення 85</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799304">
+                                <img data-target-link="#file-1799304" data-observe-src="/static/files/179/1799304.jpg" class="" alt="0086">
+                                <span class="number-of-page" data-page="86">Зображення 86</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799353">
+                                <img data-target-link="#file-1799353" data-observe-src="/static/files/179/1799353.jpg" class="" alt="0087">
+                                <span class="number-of-page" data-page="87">Зображення 87</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799265">
+                                <img data-target-link="#file-1799265" data-observe-src="/static/files/179/1799265.jpg" class="" alt="0088">
+                                <span class="number-of-page" data-page="88">Зображення 88</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799280">
+                                <img data-target-link="#file-1799280" data-observe-src="/static/files/179/1799280.jpg" class="" alt="0089">
+                                <span class="number-of-page" data-page="89">Зображення 89</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799331">
+                                <img data-target-link="#file-1799331" data-observe-src="/static/files/179/1799331.jpg" class="" alt="0090">
+                                <span class="number-of-page" data-page="90">Зображення 90</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799335">
+                                <img data-target-link="#file-1799335" data-observe-src="/static/files/179/1799335.jpg" class="" alt="0091">
+                                <span class="number-of-page" data-page="91">Зображення 91</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799300">
+                                <img data-target-link="#file-1799300" data-observe-src="/static/files/179/1799300.jpg" class="" alt="0092">
+                                <span class="number-of-page" data-page="92">Зображення 92</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799323">
+                                <img data-target-link="#file-1799323" data-observe-src="/static/files/179/1799323.jpg" class="" alt="0093">
+                                <span class="number-of-page" data-page="93">Зображення 93</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799282">
+                                <img data-target-link="#file-1799282" data-observe-src="/static/files/179/1799282.jpg" class="" alt="0094">
+                                <span class="number-of-page" data-page="94">Зображення 94</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799271">
+                                <img data-target-link="#file-1799271" data-observe-src="/static/files/179/1799271.jpg" class="" alt="0095">
+                                <span class="number-of-page" data-page="95">Зображення 95</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799367">
+                                <img data-target-link="#file-1799367" data-observe-src="/static/files/179/1799367.jpg" class="" alt="0096">
+                                <span class="number-of-page" data-page="96">Зображення 96</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799301">
+                                <img data-target-link="#file-1799301" data-observe-src="/static/files/179/1799301.jpg" class="" alt="0097">
+                                <span class="number-of-page" data-page="97">Зображення 97</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799298">
+                                <img data-target-link="#file-1799298" data-observe-src="/static/files/179/1799298.jpg" class="" alt="0098">
+                                <span class="number-of-page" data-page="98">Зображення 98</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799336">
+                                <img data-target-link="#file-1799336" data-observe-src="/static/files/179/1799336.jpg" class="" alt="0099">
+                                <span class="number-of-page" data-page="99">Зображення 99</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799325">
+                                <img data-target-link="#file-1799325" data-observe-src="/static/files/179/1799325.jpg" class="" alt="0100">
+                                <span class="number-of-page" data-page="100">Зображення 100</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799395">
+                                <img data-target-link="#file-1799395" data-observe-src="/static/files/179/1799395.jpg" class="" alt="0101">
+                                <span class="number-of-page" data-page="101">Зображення 101</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799372">
+                                <img data-target-link="#file-1799372" data-observe-src="/static/files/179/1799372.jpg" class="" alt="0102">
+                                <span class="number-of-page" data-page="102">Зображення 102</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799275">
+                                <img data-target-link="#file-1799275" data-observe-src="/static/files/179/1799275.jpg" class="" alt="0103">
+                                <span class="number-of-page" data-page="103">Зображення 103</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799401">
+                                <img data-target-link="#file-1799401" data-observe-src="/static/files/179/1799401.jpg" class="" alt="0104">
+                                <span class="number-of-page" data-page="104">Зображення 104</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799407">
+                                <img data-target-link="#file-1799407" data-observe-src="/static/files/179/1799407.jpg" class="" alt="0105">
+                                <span class="number-of-page" data-page="105">Зображення 105</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799289">
+                                <img data-target-link="#file-1799289" data-observe-src="/static/files/179/1799289.jpg" class="" alt="0106">
+                                <span class="number-of-page" data-page="106">Зображення 106</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799383">
+                                <img data-target-link="#file-1799383" data-observe-src="/static/files/179/1799383.jpg" class="" alt="0107">
+                                <span class="number-of-page" data-page="107">Зображення 107</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799294">
+                                <img data-target-link="#file-1799294" data-observe-src="/static/files/179/1799294.jpg" class="" alt="0108">
+                                <span class="number-of-page" data-page="108">Зображення 108</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799397">
+                                <img data-target-link="#file-1799397" data-observe-src="/static/files/179/1799397.jpg" class="" alt="0109">
+                                <span class="number-of-page" data-page="109">Зображення 109</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799358">
+                                <img data-target-link="#file-1799358" data-observe-src="/static/files/179/1799358.jpg" class="" alt="0110">
+                                <span class="number-of-page" data-page="110">Зображення 110</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799361">
+                                <img data-target-link="#file-1799361" data-observe-src="/static/files/179/1799361.jpg" class="" alt="0111">
+                                <span class="number-of-page" data-page="111">Зображення 111</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799365">
+                                <img data-target-link="#file-1799365" data-observe-src="/static/files/179/1799365.jpg" class="" alt="0112">
+                                <span class="number-of-page" data-page="112">Зображення 112</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799406">
+                                <img data-target-link="#file-1799406" data-observe-src="/static/files/179/1799406.jpg" class="" alt="0113">
+                                <span class="number-of-page" data-page="113">Зображення 113</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799303">
+                                <img data-target-link="#file-1799303" data-observe-src="/static/files/179/1799303.jpg" class="" alt="0114">
+                                <span class="number-of-page" data-page="114">Зображення 114</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799316">
+                                <img data-target-link="#file-1799316" data-observe-src="/static/files/179/1799316.jpg" class="" alt="0115">
+                                <span class="number-of-page" data-page="115">Зображення 115</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799378">
+                                <img data-target-link="#file-1799378" data-observe-src="/static/files/179/1799378.jpg" class="" alt="0116">
+                                <span class="number-of-page" data-page="116">Зображення 116</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799320">
+                                <img data-target-link="#file-1799320" data-observe-src="/static/files/179/1799320.jpg" class="" alt="0117">
+                                <span class="number-of-page" data-page="117">Зображення 117</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799375">
+                                <img data-target-link="#file-1799375" data-observe-src="/static/files/179/1799375.jpg" class="" alt="0118">
+                                <span class="number-of-page" data-page="118">Зображення 118</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799384">
+                                <img data-target-link="#file-1799384" data-observe-src="/static/files/179/1799384.jpg" class="" alt="0119">
+                                <span class="number-of-page" data-page="119">Зображення 119</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799388">
+                                <img data-target-link="#file-1799388" data-observe-src="/static/files/179/1799388.jpg" class="" alt="0120">
+                                <span class="number-of-page" data-page="120">Зображення 120</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799310">
+                                <img data-target-link="#file-1799310" data-observe-src="/static/files/179/1799310.jpg" class="" alt="0121">
+                                <span class="number-of-page" data-page="121">Зображення 121</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799287">
+                                <img data-target-link="#file-1799287" data-observe-src="/static/files/179/1799287.jpg" class="" alt="0122">
+                                <span class="number-of-page" data-page="122">Зображення 122</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799390">
+                                <img data-target-link="#file-1799390" data-observe-src="/static/files/179/1799390.jpg" class="" alt="0123">
+                                <span class="number-of-page" data-page="123">Зображення 123</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799371">
+                                <img data-target-link="#file-1799371" data-observe-src="/static/files/179/1799371.jpg" class="" alt="0124">
+                                <span class="number-of-page" data-page="124">Зображення 124</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799403">
+                                <img data-target-link="#file-1799403" data-observe-src="/static/files/179/1799403.jpg" class="" alt="0125">
+                                <span class="number-of-page" data-page="125">Зображення 125</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799318">
+                                <img data-target-link="#file-1799318" data-observe-src="/static/files/179/1799318.jpg" class="" alt="0126">
+                                <span class="number-of-page" data-page="126">Зображення 126</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799269">
+                                <img data-target-link="#file-1799269" data-observe-src="/static/files/179/1799269.jpg" class="" alt="0127">
+                                <span class="number-of-page" data-page="127">Зображення 127</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799368">
+                                <img data-target-link="#file-1799368" data-observe-src="/static/files/179/1799368.jpg" class="" alt="0128">
+                                <span class="number-of-page" data-page="128">Зображення 128</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799405">
+                                <img data-target-link="#file-1799405" data-observe-src="/static/files/179/1799405.jpg" class="" alt="0129">
+                                <span class="number-of-page" data-page="129">Зображення 129</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799344">
+                                <img data-target-link="#file-1799344" data-observe-src="/static/files/179/1799344.jpg" class="" alt="0130">
+                                <span class="number-of-page" data-page="130">Зображення 130</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799343">
+                                <img data-target-link="#file-1799343" data-observe-src="/static/files/179/1799343.jpg" class="" alt="0131">
+                                <span class="number-of-page" data-page="131">Зображення 131</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799352">
+                                <img data-target-link="#file-1799352" data-observe-src="/static/files/179/1799352.jpg" class="" alt="0132">
+                                <span class="number-of-page" data-page="132">Зображення 132</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799291">
+                                <img data-target-link="#file-1799291" data-observe-src="/static/files/179/1799291.jpg" class="" alt="0133">
+                                <span class="number-of-page" data-page="133">Зображення 133</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799267">
+                                <img data-target-link="#file-1799267" data-observe-src="/static/files/179/1799267.jpg" class="" alt="0134">
+                                <span class="number-of-page" data-page="134">Зображення 134</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799364">
+                                <img data-target-link="#file-1799364" data-observe-src="/static/files/179/1799364.jpg" class="" alt="0135">
+                                <span class="number-of-page" data-page="135">Зображення 135</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799404">
+                                <img data-target-link="#file-1799404" data-observe-src="/static/files/179/1799404.jpg" class="" alt="0136">
+                                <span class="number-of-page" data-page="136">Зображення 136</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799283">
+                                <img data-target-link="#file-1799283" data-observe-src="/static/files/179/1799283.jpg" class="" alt="0137">
+                                <span class="number-of-page" data-page="137">Зображення 137</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799345">
+                                <img data-target-link="#file-1799345" data-observe-src="/static/files/179/1799345.jpg" class="" alt="0138">
+                                <span class="number-of-page" data-page="138">Зображення 138</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799362">
+                                <img data-target-link="#file-1799362" data-observe-src="/static/files/179/1799362.jpg" class="" alt="0139">
+                                <span class="number-of-page" data-page="139">Зображення 139</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799373">
+                                <img data-target-link="#file-1799373" data-observe-src="/static/files/179/1799373.jpg" class="" alt="0140">
+                                <span class="number-of-page" data-page="140">Зображення 140</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799299">
+                                <img data-target-link="#file-1799299" data-observe-src="/static/files/179/1799299.jpg" class="" alt="0141">
+                                <span class="number-of-page" data-page="141">Зображення 141</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799293">
+                                <img data-target-link="#file-1799293" data-observe-src="/static/files/179/1799293.jpg" class="" alt="0142">
+                                <span class="number-of-page" data-page="142">Зображення 142</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="fixed-image number-of-page">
+                                                        <a href="#file-1799277">
+                                <img data-target-link="#file-1799277" data-observe-src="/static/files/179/1799277.jpg" class="" alt="0143">
+                                <span class="number-of-page" data-page="143">Зображення 143</span>
+                            </a>
+                        </div>
+                    </li>
+                            </ul>
+        </div>
+        
+            </div>
+</div>
+
+
+    <!-- Observer-->
+<script>
+    function observeImages() {
+        var isObserverExist = 'IntersectionObserver' in window;
+
+        var options = {
+            rootMargin: '0px 100px 200px 100px'
+        };
+
+        var io = isObserverExist && new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.intersectionRatio > 0) {
+                    var element = entry.target;
+                    var src = element.dataset.observeSrc;
+
+                    element.src = src;
+                    io.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        var targetElements = Array.from(document.querySelectorAll('img'));
+        var filteredImages = targetElements.filter(function(element) {
+            return element && !element.src && element.dataset && !!element.dataset.observeSrc;
+        });
+
+        filteredImages.forEach(function(element) {
+            if (isObserverExist) {
+                io.observe(element);
+            } else {
+                var src = element.dataset.observeSrc;
+                element.src = src;
+            }
+        });
+    }
+    observeImages();
+</script>
+<!-- End Observer-->
+
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="/static/viewer-zoom/zoom.min.js"></script>
+
+<script>
+function initZoom() {
+    $('#main-image').smoothZoom({
+        width:'102%',
+        height:'100%'
+    });
+
+    const imageSection = $('.big-preview');
+    const containerWidth = Number.parseInt(imageSection.width(), 10);
+    const containerHeight = Number.parseInt(imageSection.height(), 10);
+    $('#main-image').smoothZoom('resize', {'width':containerWidth, 'height':containerHeight});
+}
+
+$('.hide-sidebar').on('click', () => {
+    setTimeout(initZoom, 500);
+
+});
+
+$(window).resize(() => {
+    initZoom();
+});
+
+initZoom();
+
+</script>
+                </div>
+            </div>
+
+                <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__item copy text">
+                © 2026 <a href="http://185.168.128.144/" target="_blank">ЦДІАЛ</a>. Всі права захищені
+            </div>
+
+            <div class="footer__item powered text">
+                Powered by <a href="https://arinsy.com/product/archium/" target="_blank">ARCHIUM</a>
+            </div>
+        </div>
+    </footer>
+        </div>
+
+        <script src="/build/app.js?0.3.2"></script>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+[submodule ".agents/skills/ex-ussr-kinship-research"]
+	path = .agents/skills/ex-ussr-kinship-research
+	url = https://github.com/DenisSergeevitch/ex-ussr-kinship-research.git

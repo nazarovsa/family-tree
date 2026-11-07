@@ -1,0 +1,21 @@
+{
+  "settlement_entries": 3830,
+  "countries": {
+    "UA": 1703,
+    "PL": 2127
+  },
+  "catalog_books": 460,
+  "matched_books": 296,
+  "place_book_candidates": 672,
+  "matched_places": 327,
+  "centers": {
+    "Potelych": [
+      50.20804,
+      23.54674
+    ],
+    "Devyatir-UA": [
+      50.21429,
+      23.48843
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "captured_at": "2026-11-07",
+  "records": [
+    {
+      "id": "KZ1Y-P2G",
+      "name": "Maria Leszczyszyn",
+      "index_arrival": "12 Oct1920,Detroit",
+      "reference": "M1478-47-3674",
+      "reading": "Оригинал просмотрен. Только имя, датаOct12,1920 и W/A CANCELLED; прочие графы пусты. Это не подтверждение состоявшегося въезда. Нет DOB/родителей/Девятыра.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=KZ1Y-P2G"
+    },
+    {
+      "id": "QKQM-CSXX",
+      "name": "Marie Leszczyszyn",
+      "index_arrival": "1895–1924,Vermont — диапазон коллекции",
+      "reference": "M1461-237-3952",
+      "reading": "Оригинал:Detroit Mich,Oct12,1920; age24, female,married, accompanyingSemko27; nationalityAustria; raceRuth.; lastresidenceWindsorCanada; uncleJohnHolow[чтениепредварительное],FortWilliamOnt.; firstlandingCanada1913SSUnknown. Место рождения почерк неуверенный, НЕпрочитано какДевятир. Возраст соответствуеток1896, не1901. Возможна связь с отменённой карточкойKZ1Y-P2G поимени/дате, но не отождествлено.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=QKQM-CSXX"
+    },
+    {
+      "id": "KZ1Y-P2P",
+      "name": "Mary Leszczyszyn",
+      "index_arrival": "11 Dec1943,Detroit",
+      "reference": "M1478-47-3675",
+      "reading": "Оригинал просмотрен как соседний3675. РождениеWindsorCan,год1913предварительно,национальностьCan. Не привязана кP29; точныйдень/месяц непрочитаны.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=KZ1Y-P2P"
+    },
+    {
+      "id": "24TG-ZG6",
+      "name": "Maria Leszczyszyn",
+      "index_arrival": "1950,NewYork",
+      "reference": "T715-7880-427",
+      "reading": "Индекс:2года,рождение1948,GeneralW H Haan. НеP29/1901. Оригинал не прочитан.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=24TG-ZG6"
+    },
+    {
+      "id": "Q23K-WJRX",
+      "name": "Maria Leszczyszyn",
+      "index_arrival": "1908,NewYork",
+      "reference": "T612-Roll35 Russian,Greek,Austro-American,1907May-Sep-819",
+      "reading": "Индекс:8лет,расчётныйгод1900,Francesca. Есть хронологическое расхождение1908 vs1907вшифре. Родителей и происхождение не прочитано; остаётся неразрешённой, неP29поумолчанию. Оригинал не получен.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=Q23K-WJRX"
+    },
+    {
+      "id": "JNRV-F6G",
+      "name": "Marya Leszczyszyn",
+      "index_arrival": "9Dec1913,NewYork",
+      "reference": "2237-348,line14",
+      "reading": "Индекс:18лет,1895,single,PohorceAustria,Noordam,Rotterdam. Nationality дословноAustria,Polish. Это поле индекса, НЕраздельное доказательство гражданства/этничности. Другой возраст/место, родства нет. Оригинал не прочитан.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=JNRV-F6G"
+    },
+    {
+      "id": "24YM-V4X",
+      "name": "Maria Bogusz",
+      "index_arrival": "1951,NewYork",
+      "reference": "T715-7938-250",
+      "reading": "Индекс:40лет,1911,GeneralC H Muir. Не соответствуетP29/1901; нетродителей/Девятыра. Оригинал не прочитан.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=24YM-V4X"
+    },
+    {
+      "id": "JXJD-KML",
+      "name": "Marya Bogusz",
+      "index_arrival": "2June1907,NewYork",
+      "reference": "T715-0910-549,line28",
+      "reading": "Индекс:18лет,1889,single,Siedliska,Badenia,Hamburg. Nationality дословноPoland,Polish. КакоеSiedliskaнеустановлено; не связывать сДевятиром/пользователем. Оригинал не прочитан.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=JXJD-KML"
+    },
+    {
+      "id": "JJ3B-1MJ",
+      "name": "Marya Bogusz",
+      "index_arrival": "8June1914,NewYork",
+      "reference": "T715-2331-160,line20",
+      "reading": "Индекс:20лет,1894,single,SiedliskaGalicia,GeorgeWashington,Bremen. Nationality дословноAustria,Polish. Другой возраст относительнопредыдущейMarya1889; несливать. Связи сP29/Николаем нет. Оригинал не прочитан.",
+      "url": "https://www.statueofliberty.org/arrival-details/?id=JJ3B-1MJ"
+    }
+  ],
+  "image_access": "Три оригинала просмотрены через публичный viewer. downloadMedia data-изображения завершилсятаймаутом15сек; изображения на диск не сохранены. Сохранены шифры и выписки. Покупки/заказы/регистрации не выполнялись."
+}

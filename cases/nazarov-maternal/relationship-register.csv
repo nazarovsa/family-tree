@@ -32,3 +32,4 @@ R-0030,P-0020,parent,P-0031,recorded-parent,C-0040,A-0061,,TSDIAL201-4a-7465-B19
 R-0031,P-0019,parent,P-0032,recorded-parent,C-0042,A-0062,,TSDIAL201-4a-7465-B1909-A13,single-source,direct-register-reading,Родительназванвакте13/1909.
 R-0032,P-0020,parent,P-0032,recorded-parent,C-0042,A-0062,,TSDIAL201-4a-7465-B1909-A13,single-source,direct-register-reading,Родительназванвакте13/1909.
 R-0033,P-0019,spouse,P-0020,recorded-marriage,C-0044,A-0064,,PRZEMYSL56-142-7602-M1899-A3,single-source,direct-register-reading,"Брак2марта1899,акт3;родителипарысогласуютсясактамиеёдетей."
+R-0034,P-0033,sibling,P-0003,reported-family-relationship,C-0046,A-0002,,USER-SERGEY-CHAT,single-source,unverified-family-testimony,Окончательное семейное уточнение; полнородность/общие родители документами не установлены.

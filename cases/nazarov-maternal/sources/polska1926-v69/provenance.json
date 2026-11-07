@@ -1,0 +1,26 @@
+{
+  "accessed_at": "2026-11-07T17:15:48.723383+00:00",
+  "repository": "Library of Congress, Manuscript Division; digital images published by Fundacja Ośrodka KARTA",
+  "collection": "Polish declarations of admiration and friendship for the United States, 1926",
+  "volume": 69,
+  "pages": [
+    {
+      "page": 245,
+      "catalog_url": "https://www.polska1926.pl/karty/19687",
+      "image_url": "https://www.polska1926.pl/uploads/volumes/069/0245.jpg",
+      "local_file": "page-0245.jpg",
+      "sha256": "c764f3988bf8cacd6d462b7ed7de1d56260c04e323cf3eb5e167cc0ad487d1e5",
+      "originality": "Unchanged published JPEG scan, not a photograph made by the researcher"
+    },
+    {
+      "page": 246,
+      "catalog_url": "https://www.polska1926.pl/karty/19688",
+      "image_url": "https://www.polska1926.pl/uploads/volumes/069/0246.jpg",
+      "local_file": "page-0246.jpg",
+      "sha256": "a8b50d90925ce49873240f909085184881ac9e67d2caac8659420635053046fe",
+      "originality": "Unchanged published JPEG scan, not a photograph made by the researcher"
+    }
+  ],
+  "coverage": "192 index entries read across three result pages (80+80+32); original pages 245 and 246 visually inspected. Not a population census. No family identifications established.",
+  "nationality_citizenship": "School heading and participation do not establish individual ethnicity or citizenship. No personal status declaration observed."
+}

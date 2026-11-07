@@ -1,0 +1,43 @@
+ПРОВЕРКА ЭМИГРАЦИИ МАРИИ — 7ноября2026
+
+Поиск не завершён. P29 — кандидатМария07.09.1901, дочьEliasLeszczyszyn/ParascevaBohusz, дом108Девятир. P23 — взрослаяМария, матьдетей1922/1926/1928; тождествоP29неустановлено. Её брачнаяфамилия мужа предварительноDobasz/Дебас[?], НЕустановлена какBogusz. Семейная сестраНиколая, уехавшаявСША, пока неидентифицирована.
+
+KZ1Y-P2G | Maria Leszczyszyn | 12 Oct1920,Detroit | M1478-47-3674
+https://www.statueofliberty.org/arrival-details/?id=KZ1Y-P2G
+Оригинал просмотрен. Только имя, датаOct12,1920 и W/A CANCELLED; прочие графы пусты. Это не подтверждение состоявшегося въезда. Нет DOB/родителей/Девятыра.
+
+QKQM-CSXX | Marie Leszczyszyn | 1895–1924,Vermont — диапазон коллекции | M1461-237-3952
+https://www.statueofliberty.org/arrival-details/?id=QKQM-CSXX
+Оригинал:Detroit Mich,Oct12,1920; age24, female,married, accompanyingSemko27; nationalityAustria; raceRuth.; lastresidenceWindsorCanada; uncleJohnHolow[чтениепредварительное],FortWilliamOnt.; firstlandingCanada1913SSUnknown. Место рождения почерк неуверенный, НЕпрочитано какДевятир. Возраст соответствуеток1896, не1901. Возможна связь с отменённой карточкойKZ1Y-P2G поимени/дате, но не отождествлено.
+
+KZ1Y-P2P | Mary Leszczyszyn | 11 Dec1943,Detroit | M1478-47-3675
+https://www.statueofliberty.org/arrival-details/?id=KZ1Y-P2P
+Оригинал просмотрен как соседний3675. РождениеWindsorCan,год1913предварительно,национальностьCan. Не привязана кP29; точныйдень/месяц непрочитаны.
+
+24TG-ZG6 | Maria Leszczyszyn | 1950,NewYork | T715-7880-427
+https://www.statueofliberty.org/arrival-details/?id=24TG-ZG6
+Индекс:2года,рождение1948,GeneralW H Haan. НеP29/1901. Оригинал не прочитан.
+
+Q23K-WJRX | Maria Leszczyszyn | 1908,NewYork | T612-Roll35 Russian,Greek,Austro-American,1907May-Sep-819
+https://www.statueofliberty.org/arrival-details/?id=Q23K-WJRX
+Индекс:8лет,расчётныйгод1900,Francesca. Есть хронологическое расхождение1908 vs1907вшифре. Родителей и происхождение не прочитано; остаётся неразрешённой, неP29поумолчанию. Оригинал не получен.
+
+JNRV-F6G | Marya Leszczyszyn | 9Dec1913,NewYork | 2237-348,line14
+https://www.statueofliberty.org/arrival-details/?id=JNRV-F6G
+Индекс:18лет,1895,single,PohorceAustria,Noordam,Rotterdam. Nationality дословноAustria,Polish. Это поле индекса, НЕраздельное доказательство гражданства/этничности. Другой возраст/место, родства нет. Оригинал не прочитан.
+
+24YM-V4X | Maria Bogusz | 1951,NewYork | T715-7938-250
+https://www.statueofliberty.org/arrival-details/?id=24YM-V4X
+Индекс:40лет,1911,GeneralC H Muir. Не соответствуетP29/1901; нетродителей/Девятыра. Оригинал не прочитан.
+
+JXJD-KML | Marya Bogusz | 2June1907,NewYork | T715-0910-549,line28
+https://www.statueofliberty.org/arrival-details/?id=JXJD-KML
+Индекс:18лет,1889,single,Siedliska,Badenia,Hamburg. Nationality дословноPoland,Polish. КакоеSiedliskaнеустановлено; не связывать сДевятиром/пользователем. Оригинал не прочитан.
+
+JJ3B-1MJ | Marya Bogusz | 8June1914,NewYork | T715-2331-160,line20
+https://www.statueofliberty.org/arrival-details/?id=JJ3B-1MJ
+Индекс:20лет,1894,single,SiedliskaGalicia,GeorgeWashington,Bremen. Nationality дословноAustria,Polish. Другой возраст относительнопредыдущейMarya1889; несливать. Связи сP29/Николаем нет. Оригинал не прочитан.
+
+Покрытие: Leszczyszyn+Maria нечёткийпоиск429результатов; прочитана перваястраница9строк,4карточки подробно и3оригинала(1920cancelled,1920Marie,1943Mary). Не просмотрены все429. Bogusz+Maria,чекбоксexactlastname:38результатов; все5страниц таблицыпрочитаны,подробно3карточки1951/1907Siedliska/1914Siedliska. Встречаются вариантыBognsz/Bogusy,фильтрнеабсолютный. Не все38оригиналов прочитаны. Bohusz/Bogush/Bogash/Bohash/Dobasz ещё не проверенывэтойвнутреннейбазе.
+Вывод: подходящая эмиграционная запись Марии изДевятыра не установлена. Прямые формулировкиPolish относятся только к несвязанным однофамилицам; не приписывать семье.
+Очередь: MaryBogusz1927;MariaLeszczyszynFrancesca1907/08полныйманифест сродителями; брачнаяфамилияP23;вариантыBohusz/Bogush;эмиграцияпосле1928еслиP23=P29.

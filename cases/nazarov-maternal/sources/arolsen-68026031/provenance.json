@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-11-08",
+  "source": "Arolsen Archives Online Archive",
+  "person_record_url": "https://collections.arolsen-archives.org/en/search/person/68026031",
+  "document_url": "https://collections.arolsen-archives.org/en/document/68026031",
+  "archival_reference": "03010101 14 188; DP2358",
+  "files": [
+    {
+      "name": "001.jpg",
+      "sha256": "968e00037e619036f5336d8755b0194f76efa7edec16bd3a95e963052d51e581"
+    },
+    {
+      "name": "002.jpg",
+      "sha256": "93f851497f9121c0b382d84bda943f7591227680f41da501af7f304879c8b978"
+    }
+  ],
+  "reading": "DP registration record for Nikolaj/Nymolaj Leszczyszyn, born 27.08.1918 in Barwinok; father Iwan, mother Anna; Greek Catholic; musician; desired destination Canada. Page 2 is an unfilled medical-clearance reverse.",
+  "identity_note": "Excluded as P-0031/P-0008: date and place of birth and both parents conflict with the Devyatyr 1906 candidate."
+}
